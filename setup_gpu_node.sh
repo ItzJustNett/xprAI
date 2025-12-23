@@ -225,7 +225,7 @@ User=root
 WorkingDirectory=$INSTALL_DIR/llama.cpp
 Environment="CUDA_VISIBLE_DEVICES=0"
 ExecStart=$INSTALL_DIR/llama.cpp/llama-server \\
-    --model $MODEL_DIR/qwen2.5-14b-instruct-q4_k_m.gguf \\
+    --model $MODEL_DIR/qwen3-14b-q4_k_m.gguf \\
     --host $YGGDRASIL_IP \\
     --port 8080 \\
     --ctx-size 4096 \\
